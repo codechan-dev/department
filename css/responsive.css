@@ -1,0 +1,259 @@
+@media (min-width: 320px) and (max-width: 767px) {
+  /* navbar */
+  .navbar .nav-link {
+    margin-top: 10px;
+    text-align: center;
+  }
+  .navbar .navbar-toggler {
+    color: #000 !important;
+    background-color: #041562;
+    padding: 5px 5px;
+  }
+  /* home */
+  .home .content {
+    text-align: center;
+    top: 50%;
+    width: 100%;
+  }
+  .home .content h1 {
+    font-size: 3rem;
+  }
+  .home .img-content {
+    margin-top: 50px;
+    padding: 0 20px;
+  }
+  .home a {
+    padding: 10px 30px !important;
+  }
+  /* about */
+  .about {
+    padding-bottom: 0;
+  }
+  .about .content {
+    margin-top: 5%;
+  }
+  .about .heading {
+    margin-top: 20px;
+  }
+  .about .content .content-text {
+    padding: 50px 0;
+    text-align: justify;
+  }
+  .about .content h1 {
+    font-size: 1.5rem;
+  }
+  .about .content .head {
+    font-size: 1.1rem !important;
+  }
+  /* faculty */
+  .faculty .container {
+    width: 100%;
+  }
+  .flip-card .card-back {
+    padding: 100px 10px 10px 10px !important;
+  }
+  .faculty .flip-card:hover .card-front {
+    transform: scale(0.6) translate(0%, -100%);
+  }
+  /* vision mission */
+  .vision-mission .bgimg {
+    flex-direction: column;
+    row-gap: 150px;
+    width: 300px;
+    margin: 0 auto;
+  }
+  .vision-mission .bgimg img {
+    width: 100%;
+  }
+  .vision-mission .bgimg .bgvision {
+    order: -1;
+  }
+  .vision-mission .content {
+    width: 100%;
+    padding: 30px 10px;
+  }
+  /*pso and po*/
+  .pso .content {
+    font-size: 0.8rem;
+    padding: 20px;
+    margin-top: 40% !important;
+  }
+  .contact .content .contactimg .text h3 {
+    font-size: 1rem;
+  }
+  .contact .content .contactimg .text h4 {
+    font-size: 1rem;
+  }
+
+  .contact .content .contactimg .text h4 i {
+    font-size: 1.2rem !important;
+  }
+  /* mou */
+  .mou .content1 {
+    margin-top: 40% !important;
+  }
+  .mou .content1 .slide img {
+    height: 400px !important;
+    width: 100%;
+  }
+  .mou .content2 .header {
+    margin-top: 0 !important;
+    top: 0;
+    right: 0;
+  }
+  .mou .content1 .paragraph h3 {
+    font-size: 1.2rem;
+  }
+  .mou .content2 .table td,
+  .mou .content2 .table th {
+    font-size: 0.7rem;
+  }
+  button .navbar-toggler .collapsed {
+    background-color: #000;
+  }
+  /* infrastructure */
+  .infrastructure h2 {
+    font-size: 1.8rem;
+  }
+  /* achievement */
+  .achievement .content {
+    margin-top: 100px;
+  }
+  .achievement .content .image img {
+    height: 200px;
+  }
+  .achievement .content .paragraph h3 {
+    position: relative;
+    font-size: 1rem;
+    width: 100%;
+  }
+  .achievement .content .c1 h5 {
+    font-size: 0.8rem;
+    padding: 20px;
+  }
+  /* truth area */
+  .truth .content1 {
+    margin-top: 40% !important;
+  }
+  .truth .paragraph p {
+    text-align: justify;
+    padding: 20px;
+    font-size: 0.9rem;
+  }
+  /* galary */
+  .galary {
+    margin-top: 40%;
+  }
+}
+
+/* Tablet */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* navbar */
+  .navbar .nav-link {
+    margin-top: 10px;
+    text-align: center;
+  }
+  .navbar .navbar-toggler {
+    color: #000 !important;
+    background-color: #041562;
+    padding: 5px 5px;
+  }
+  .navbar .nav-link {
+    margin: 5px 5px 0 0 !important;
+  }
+  /* home */
+  .home .content {
+    width: 90%;
+  }
+  .home .content h1 {
+    font-size: 2.8rem;
+    margin-bottom: 30px;
+  }
+  .home .content a {
+    padding: 10px 20px;
+    font-size: 1rem;
+  }
+  /* about */
+  .about .heading {
+    margin-top: 50px;
+  }
+  .about .content .head {
+    font-size: 1.5rem !important;
+  }
+  .about .content .content-text {
+    margin-top: 30px;
+    text-align: justify;
+  }
+  /* faculty */
+  .faculty .container {
+    width: 100%;
+  }
+  .faculty .flip-card:hover .card-front {
+    transform: scale(0.6) translate(0%, -100%);
+  }
+  .flip-card .card-back {
+    padding: 110px 10px 10px 10px !important;
+  }
+  /* vision-mission */
+  .vision-mission .bgimg .bgvision {
+    width: 50%;
+  }
+  /* pso and po*/
+  .pso .content {
+    margin-top: 20% !important;
+    padding: 40px;
+  }
+  .wrapper {
+    padding-top: 0 !important;
+  }
+  /* contact */
+  .contact {
+    padding-top: 0 !important;
+  }
+  /* achievement */
+  .achievement .content {
+    margin-top: 100px;
+  }
+  .achievement .content .image img {
+    height: 400px;
+  }
+  .achievement .content .c1 h5 {
+    font-size: 1rem;
+    padding: -0px;
+    text-align: justify;
+  }
+  /* mou */
+  .mou .content1 {
+    margin-top: 15% !important;
+  }
+  .mou .content1 .slide img {
+    height: 400px !important;
+    width: 100%;
+  }
+  /* truth area */
+  .truth .content1 {
+    margin-top: 10% !important;
+  }
+  .truth .paragraph p {
+    text-align: justify;
+    padding: 20px;
+  }
+  /* galary */
+  .galary {
+    margin-top: 15%;
+  }
+  .ycsbs .content2 .header h2 {
+    text-align: center;
+  }
+  .contact .content .contactimg .text h3 {
+    font-size: 1rem;
+  }
+
+  .contact .content .contactimg .text h4 i {
+    font-size: 1.2rem !important;
+  }
+  .contact .content .contactimg .text h4 {
+    font-size: 1rem;
+  }
+}
